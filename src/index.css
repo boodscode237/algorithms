@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the active navigation link */
+.nav-link.active {
+    @apply bg-blue-700 text-white;
+}
+
+/* Ensure smooth scrolling when navigating */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom font for a clean look */
+body {
+    font-family: 'Inter', sans-serif;
+}
